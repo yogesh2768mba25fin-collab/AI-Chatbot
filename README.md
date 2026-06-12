@@ -1,5 +1,10 @@
 # AI Financial Assistant Chatbot
 
+[🚀 Live Demo](https://www.kommunicate.io/livechat-demo?appId=36d16c64969738cffb2db12309cdcb29b&botIds=financial-agent-tgeo5&assignee=financial-agent-tgeo5)
+
+## Objective
+...
+
 ## Objective
 
 To build a financial advisory chatbot capable of assisting users with budgeting, tax-saving strategies, EMI calculations, investment planning, and general financial guidance.
@@ -8,10 +13,10 @@ To build a financial advisory chatbot capable of assisting users with budgeting,
 
 ## Technologies Used
 
-- Dialogflow ES
-- Kommunicate
-- Natural Language Processing (NLP)
-- Conversational AI
+* Dialogflow ES
+* Kommunicate
+* Natural Language Processing (NLP)
+* Conversational AI
 
 ---
 
@@ -19,37 +24,32 @@ To build a financial advisory chatbot capable of assisting users with budgeting,
 
 ### Budget Planning Advice
 
-Provides:
-- Budgeting strategies
-- Expense management tips
-- Saving recommendations
-- Financial planning guidance
+* Budgeting strategies
+* Expense management tips
+* Saving recommendations
+* Financial planning guidance
 
 ### Tax Saving Guidance
 
-Provides information on:
-- ELSS
-- PPF
-- Tax-saving investments
-- Section 80C options
-- Long-term tax planning
+* ELSS
+* PPF
+* Tax-saving investments
+* Section 80C options
+* Long-term tax planning
 
 ### EMI Information
 
-Provides:
-- EMI explanation
-- Loan calculations
-- Interest impact
-- Repayment planning
+* EMI explanation
+* Loan calculations
+* Interest impact
+* Repayment planning
 
 ### Investment Planning
 
-Provides guidance on:
-- Risk assessment
-- Investment options
-- Mutual funds
-- Fixed deposits
-- Long-term wealth creation
+* Risk assessment
+* Mutual funds
+* Fixed deposits
+* Long-term wealth creation
 
 ---
 
@@ -59,23 +59,33 @@ Provides guidance on:
 
 ![Budgeting Advice](Budgeting_Advice.png)
 
----
-
 ### Tax Saving Advisor Intent
 
 ![Tax Saving](Tax_Saving.png)
 
 ---
 
+## Deployment Architecture
+
+User
+↓
+Kommunicate Chat Interface
+↓
+Dialogflow ES
+↓
+Intent Detection
+↓
+Financial Guidance Response
+
+---
+
 ## Kommunicate Deployment
 
-The Dialogflow chatbot was deployed using Kommunicate to provide a web-based conversational interface.
+The chatbot was deployed using Kommunicate to provide a user-friendly web-based conversational interface accessible from any device.
 
 ### Financial Chatbot Demo
 
 ![Financial Chatbot](Chat_bot.png)
-
----
 
 ### Investment Planning Conversation
 
@@ -85,59 +95,59 @@ The Dialogflow chatbot was deployed using Kommunicate to provide a web-based con
 
 ## Business Impact
 
-- Provided instant financial guidance through an AI-powered conversational interface.
-- Improved user engagement by offering 24/7 assistance for financial queries.
-- Simplified complex financial concepts such as tax planning, budgeting, and investments.
-- Reduced dependency on manual financial consultation for basic advisory services.
-- Enhanced financial awareness and decision-making through personalized recommendations.
+* Provided instant financial guidance through an AI-powered conversational interface.
+* Improved user engagement with 24/7 financial assistance.
+* Simplified complex financial concepts such as budgeting, taxation, and investments.
+* Reduced dependency on manual consultation for basic financial advisory services.
+* Enhanced financial awareness and decision-making.
 
 ---
 
 ## Skills Demonstrated
 
-- Conversational AI Development
-- Natural Language Processing (NLP)
-- Dialogflow ES
-- Chatbot Design and Development
-- Intent Creation and Management
-- Entity Recognition
-- Financial Advisory Automation
-- User Experience (UX) Design
-- Kommunicate Deployment
-- AI-Powered Customer Support
-- Problem Solving
-- Requirement Analysis
+* Conversational AI Development
+* Dialogflow ES
+* Natural Language Processing (NLP)
+* Intent Design & Management
+* Entity Recognition
+* Financial Advisory Automation
+* Chatbot Development
+* Kommunicate Deployment
+* User Experience Design
+* AI-Powered Customer Support
+* Problem Solving & Requirement Analysis
 
 ---
 
 ## Key Learnings
 
-- Designed and trained a conversational AI chatbot using Dialogflow ES.
-- Created intents, responses, and conversational flows for financial advisory use cases.
-- Integrated Dialogflow with Kommunicate for web-based deployment.
-- Applied NLP techniques to understand and respond to user queries effectively.
-- Developed AI solutions for budgeting, tax planning, EMI calculations, and investment guidance.
-- Improved chatbot performance through intent optimization, testing, and refinement.
-- Learned how conversational AI can enhance customer support and financial literacy.
+* Designed and trained a financial chatbot using Dialogflow ES.
+* Built conversational flows for budgeting, tax planning, EMI calculations, and investment guidance.
+* Integrated Dialogflow with Kommunicate for deployment.
+* Applied NLP techniques for intent recognition and response generation.
+* Improved chatbot performance through testing and optimization.
+* Explored practical applications of AI in financial services.
 
 ---
 
 ## Project Outcome
 
-Successfully developed and deployed an AI-powered Financial Assistant Chatbot capable of providing personalized guidance on budgeting, tax-saving strategies, EMI calculations, and investment planning. The solution demonstrated the practical application of NLP and Conversational AI in financial services while improving accessibility to financial information.
+Successfully developed and deployed an AI-powered Financial Assistant Chatbot capable of providing personalized financial guidance on budgeting, tax-saving strategies, EMI calculations, and investment planning. The project demonstrates the practical use of Conversational AI and NLP in enhancing financial literacy and customer engagement.
 
 ---
 
 ## Future Enhancements
 
-- Integrate real-time financial market data.
-- Add multilingual support for broader accessibility.
-- Implement personalized investment recommendations.
-- Connect with financial APIs for live calculations.
-- Enhance chatbot intelligence using advanced AI models.
+* Real-time market data integration
+* Personalized investment recommendations
+* Multilingual support
+* Live financial calculators
+* Integration with banking and financial APIs
+* Advanced AI-powered financial advisory features
 
 ---
 
 ## Author
 
 **Yogesh**
+MBA Finance | AI & Financial Analytics Enthusiast
